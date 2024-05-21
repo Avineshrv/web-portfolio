@@ -353,6 +353,10 @@ main {
   border-radius: 20px;
 }
 
+.avatar-img {
+  border-radius: 20px;
+}
+
 .info-content .name {
   color: var(--white-2);
   font-size: var(--fs-3);
@@ -2030,4 +2034,92 @@ textarea.form-input::-webkit-resizer {
   .timeline-text {
     max-width: 700px;
   }
+}
+
+/* PROFILE PIC IMAGE HOVER ANIMATION */
+
+/* .avatar-box {
+  position: relative;
+  width: 150px;
+  height: 150px;
+}
+
+.image-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.avatar-img {
+  position: absolute;
+  border-radius: 20px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.emoji {
+  opacity: 1;
+}
+
+.pic {
+  opacity: 0;
+}
+
+.image-container:hover .emoji,
+.image-container:active .emoji {
+  opacity: 0;
+}
+
+.image-container:hover .pic,
+.image-container:active .pic {
+  opacity: 1;
+} */
+
+/* RESUME DOWNLOAD BUTTON STYLE */
+
+.resume-buttons {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.resume-buttons .form-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  background-color: transparent;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin: 5px;
+}
+
+.resume-buttons .form-btn:hover {
+  background-color: transparent;
+}
+
+.resume-buttons .form-btn ion-icon {
+  margin-right: 8px;
+  color: hsl(45, 100%, 72%);
+}
+
+.resume-buttons .form-btn.loading span {
+  display: none;
+}
+
+.resume-buttons .form-btn.loading::after {
+  content: 'Loading...';
+  display: inline-block;
+}
+
+.resume-buttons .form-btn.downloaded::after {
+  content: 'Resume downloaded';
+  display: inline-block;
 }
