@@ -1438,10 +1438,19 @@ textarea.form-input::-webkit-resizer {
 
   .avatar-box {
     border-radius: 30px;
+    display: flex;
+    aspect-ratio: 1;
+    justify-content: center;
+    align-items: flex-end;
   }
 
   .avatar-box img {
-    width: 120px;
+    width: 70%;
+    object-fit: contain;
+  }
+
+  .avatar-box:hover, .avatar-box:focus, .avatar-box:active {
+    
   }
 
   .info-content .name {
@@ -1979,10 +1988,6 @@ textarea.form-input::-webkit-resizer {
 
   .sidebar-info {
     flex-direction: column;
-  }
-
-  .avatar-box img {
-    width: 150px;
   }
 
   .info-content .name {
