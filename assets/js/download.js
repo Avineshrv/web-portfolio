@@ -1,19 +1,25 @@
 document
   .getElementById('download-detailed-resume')
   .addEventListener('click', function () {
-    downloadAndOpenPDF('/assets/PDF/Avinesh Kumar Resume Detailed.pdf');
+    downloadAndOpenPDF(
+      'web-portfolio/assets/PDF/Avinesh Kumar Resume Detailed.pdf'
+    );
   });
 
 document
   .getElementById('download-light-resume')
   .addEventListener('click', function () {
-    downloadAndOpenPDF('/assets/PDF/Avinesh Kumar Resume Light.pdf');
+    downloadAndOpenPDF(
+      'web-portfolio/assets/PDF/Avinesh Kumar Resume Light.pdf'
+    );
   });
 
 document
   .getElementById('download-dark-resume')
   .addEventListener('click', function () {
-    downloadAndOpenPDF('/assets/PDF/Avinesh Kumar Resume Dark.pdf');
+    downloadAndOpenPDF(
+      'web-portfolio/assets/PDF/Avinesh Kumar Resume Dark.pdf'
+    );
   });
 
 function downloadAndOpenPDF(pdfUrl) {
