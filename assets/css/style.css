@@ -1449,8 +1449,9 @@ textarea.form-input::-webkit-resizer {
     object-fit: contain;
   }
 
-  .avatar-box:hover, .avatar-box:focus, .avatar-box:active {
-    
+  .avatar-box:hover,
+  .avatar-box:focus,
+  .avatar-box:active {
   }
 
   .info-content .name {
@@ -2087,7 +2088,7 @@ textarea.form-input::-webkit-resizer {
 
 .resume-buttons {
   text-align: center;
-  margin-top: 20px;
+  margin: 20px 0;
 }
 
 .resume-buttons .form-btn {

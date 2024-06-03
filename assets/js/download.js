@@ -1,7 +1,7 @@
 document
   .getElementById('download-detailed-resume')
   .addEventListener('click', function () {
-    downloadAndOpenPDF('web-portfolio/assets/PDF/Avinesh Kumar Resume.pdf');
+    downloadAndOpenPDF('/web-portfolio/assets/PDF/Avinesh Kumar Resume.pdf');
   });
 
 // document
