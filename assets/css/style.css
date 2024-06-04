@@ -1445,7 +1445,7 @@ textarea.form-input::-webkit-resizer {
   }
 
   .avatar-box img {
-    width: 70%;
+    width: 90%;
     object-fit: contain;
   }
 
