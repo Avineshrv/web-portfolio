@@ -1,488 +1,389 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Avinesh - Personal Portfolio</title>
 
-    <!--
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Avinesh - Personal Portfolio</title>
+
+  <!--
     - favicon
   -->
-    <link
-      rel="shortcut icon"
-      href="./assets/images/logo.ico"
-      type="image/x-icon"
-    />
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon" />
 
-    <!--
+  <!--
     - custom css link
   -->
-    <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
 
-    <!--
+  <!--
     - google font link
   -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
-      rel="stylesheet"
-    />
-  </head>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
 
-  <body>
-    <!--
+<body>
+  <!--
     - #MAIN
   -->
 
-    <main>
-      <!--
+  <main>
+    <!--
       - #SIDEBAR
     -->
 
-      <aside class="sidebar" data-sidebar>
-        <div class="sidebar-info">
-          <figure class="avatar-box" style="display: flex; justify-content: center; align-items: center;">
-            <img
-              style="display: block;"
-              src="./assets/images/profilePic/AvineshEmojiHeadNew.png"
-              alt="Richard hanrick"
-              width="80"
-            />
-            <img
-              style="display: none;"
-              src="./assets/images/profilePic/AvineshEmojiHead.png"
-              alt="Richard hanrick"
-              width="100"
-            />
-          </figure>
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box" style="display: flex; justify-content: center; align-items: center;">
+          <img style="display: block;" src="./assets/images/profilePic/AvineshEmojiHeadNew.png" alt="Richard hanrick"
+            width="80" />
+          <img style="display: none;" src="./assets/images/profilePic/AvineshEmojiHead.png" alt="Richard hanrick"
+            width="100" />
+        </figure>
 
-          <div class="info-content">
-            <h1 class="name" title="Richard hanrick">Avinesh Kumar R V</h1>
+        <div class="info-content">
+          <h1 class="name" title="Richard hanrick">Avinesh Kumar R V</h1>
 
-            <p class="title">Web developer</p>
-          </div>
-
-          <button class="info_more-btn" data-sidebar-btn>
-            <span>Show Contacts</span>
-
-            <ion-icon name="chevron-down"></ion-icon>
-          </button>
+          <p class="title">Web developer</p>
         </div>
 
-        <div class="sidebar-info_more">
-          <div class="separator"></div>
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
 
-          <ul class="contacts-list">
-            <li class="contact-item">
-              <div class="icon-box">
-                <ion-icon name="mail-outline"></ion-icon>
-              </div>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
 
-              <div class="contact-info">
-                <p class="contact-title">Email</p>
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
 
-                <a href="mailto:richard@example.com" class="contact-link"
-                  >avineshrv@gmail.com</a
-                >
-              </div>
-            </li>
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
 
-            <li class="contact-item">
-              <div class="icon-box">
-                <ion-icon name="phone-portrait-outline"></ion-icon>
-              </div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
 
-              <div class="contact-info">
-                <p class="contact-title">Phone</p>
+              <a href="mailto:richard@example.com" class="contact-link">avineshrv@gmail.com</a>
+            </div>
+          </li>
 
-                <a href="tel:+12133522795" class="contact-link"
-                  >+91 9677327919</a
-                >
-              </div>
-            </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
 
-            <li class="contact-item">
-              <div class="icon-box">
-                <ion-icon name="calendar-outline"></ion-icon>
-              </div>
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
 
-              <div class="contact-info">
-                <p class="contact-title">Birthday</p>
+              <a href="tel:+12133522795" class="contact-link">+91 9677327919</a>
+            </div>
+          </li>
 
-                <time datetime="1982-06-23">July 3, 1999</time>
-              </div>
-            </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
 
-            <li class="contact-item">
-              <div class="icon-box">
-                <ion-icon name="location-outline"></ion-icon>
-              </div>
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
 
-              <div class="contact-info">
-                <p class="contact-title">Location</p>
+              <time datetime="1982-06-23">July 3, 1999</time>
+            </div>
+          </li>
 
-                <address>Chennai, Tamil Nadu, India</address>
-              </div>
-            </li>
-          </ul>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
 
-          <div class="separator"></div>
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
 
-          <ul class="social-list">
-            <li class="social-item">
-              <a href="https://github.com/Avineshrv" class="social-link">
-                <ion-icon name="logo-github"></ion-icon>
-              </a>
-            </li>
+              <address>Chennai, Tamil Nadu, India</address>
+            </div>
+          </li>
+        </ul>
 
-            <li class="social-item">
-              <a href="https://www.linkedin.com/in/avineshrv" class="social-link">
-                <ion-icon name="logo-linkedin"></ion-icon>
-              </a>
-            </li>
+        <div class="separator"></div>
 
-            <li class="social-item">
-              <a href="https://www.instagram.com/avineshrv" class="social-link">
-                <ion-icon name="logo-instagram"></ion-icon>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </aside>
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="https://github.com/Avineshrv" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
 
-      <!--
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/avineshrv" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/avineshrv" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+    <!--
       - #main-content
     -->
 
-      <div class="main-content">
-        <!--
+    <div class="main-content">
+      <!--
         - #NAVBAR
       -->
 
-        <nav class="navbar">
-          <ul class="navbar-list">
-            <li class="navbar-item">
-              <button class="navbar-link active" data-nav-link>About</button>
-            </li>
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <button class="navbar-link active" data-nav-link>About</button>
+          </li>
 
-            <li class="navbar-item">
-              <button class="navbar-link" data-nav-link>Resume</button>
-            </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
 
-            <li class="navbar-item">
-              <button class="navbar-link" data-nav-link>Portfolio</button>
-            </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
 
-            <li class="navbar-item">
-              <button class="navbar-link" data-nav-link>Blog</button>
-            </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
 
-            <li class="navbar-item">
-              <button class="navbar-link" data-nav-link>Contact</button>
-            </li>
-          </ul>
-        </nav>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+        </ul>
+      </nav>
 
-        <!--
+      <!--
         - #ABOUT
       -->
 
-        <article class="about active" data-page="about">
-          <header>
-            <h2 class="h2 article-title">About me</h2>
-          </header>
+      <article class="about active" data-page="about">
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
 
-          <section class="about-text">
-            <p>
-              Hello, I'm Avinesh, a full time Frontend Developer
-              expanding/evolving into Full Stack Development with a diverse
-              background, from startups to key roles at Tata Consultancy
-              Services, serving global clients like Hasbro. My expertise spans
-              dynamic web solutions using modern technologies like ReactJS,
-              NextJS, MongoDB, and more.
-            </p>
+        <section class="about-text">
+          <p>
+            Hello, I'm Avinesh, a full time Frontend Developer
+            expanding/evolving into Full Stack Development with a diverse
+            background, from startups to key roles at Tata Consultancy
+            Services, serving global clients like Hasbro. My expertise spans
+            dynamic web solutions using modern technologies like ReactJS,
+            NextJS, MongoDB, and more.
+          </p>
 
-            <p>
-              With a meticulous approach, I convert complex technical
-              requirements into intuitive solutions, blending problem-solving
-              with innovation. Committed to continuous learning, I'm passionate
-              about leveraging the latest technologies to drive real-world
-              impact. Let's connect and explore how we can collaborate to create
-              impactful digital solutions together.
-            </p>
-          </section>
+          <p>
+            With a meticulous approach, I convert complex technical
+            requirements into intuitive solutions, blending problem-solving
+            with innovation. Committed to continuous learning, I'm passionate
+            about leveraging the latest technologies to drive real-world
+            impact. Let's connect and explore how we can collaborate to create
+            impactful digital solutions together.
+          </p>
+        </section>
 
-          <!--
+        <!--
           - service
         -->
 
-          <section class="service">
-            <h3 class="h3 service-title">What i'm doing</h3>
+        <section class="service">
+          <h3 class="h3 service-title">What i'm doing</h3>
 
-            <ul class="service-list">
-              <li class="service-item">
-                <div class="service-icon-box">
-                  <img
-                    src="./assets/images/icons/website-design-icon.svg
-                "
-                    alt="design icon"
-                    width="40"
-                  />
-                </div>
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icons/website-design-icon.svg
+                " alt="design icon" width="40" />
+              </div>
 
-                <div class="service-content-box">
-                  <h4 class="h4 service-item-title">Web design</h4>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web design</h4>
 
-                  <p class="service-item-text">
-                    The most modern and high-quality design made at a
-                    professional level.
-                  </p>
-                </div>
-              </li>
+                <p class="service-item-text">
+                  The most modern and high-quality design made at a
+                  professional level.
+                </p>
+              </div>
+            </li>
 
-              <li class="service-item">
-                <div class="service-icon-box">
-                  <img
-                    src="./assets/images/icon-dev.svg"
-                    alt="Web development icon"
-                    width="40"
-                  />
-                </div>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40" />
+              </div>
 
-                <div class="service-content-box">
-                  <h4 class="h4 service-item-title">Web development</h4>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
 
-                  <p class="service-item-text">
-                    High-quality development of sites at the professional level.
-                  </p>
-                </div>
-              </li>
+                <p class="service-item-text">
+                  High-quality development of sites at the professional level.
+                </p>
+              </div>
+            </li>
 
-              <li class="service-item">
-                <div class="service-icon-box">
-                  <img
-                    src="./assets/images/icons/rest-api-icon.svg"
-                    alt="API icon"
-                    width="40"
-                  />
-                </div>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icons/rest-api-icon.svg" alt="API icon" width="40" />
+              </div>
 
-                <div class="service-content-box">
-                  <h4 class="h4 service-item-title">API Management</h4>
-                  <p class="service-item-text">
-                    Expertise in managing and optimizing APIs for scalability
-                    and performance.
-                  </p>
-                </div>
-              </li>
-              <li class="service-item">
-                <div class="service-icon-box">
-                  <img
-                    src="./assets/images/icons/seo-icon.svg"
-                    alt="SEO icon"
-                    width="40"
-                  />
-                </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">API Management</h4>
+                <p class="service-item-text">
+                  Expertise in managing and optimizing APIs for scalability
+                  and performance.
+                </p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icons/seo-icon.svg" alt="SEO icon" width="40" />
+              </div>
 
-                <div class="service-content-box">
-                  <h4 class="h4 service-item-title">SEO Optimization</h4>
-                  <p class="service-item-text">
-                    Implementing SEO strategies to improve website visibility
-                    and rankings.
-                  </p>
-                </div>
-              </li>
-              <li class="service-item">
-                <div class="service-icon-box">
-                  <img
-                    src="./assets/images/icons/3d-rotate-icon.svg"
-                    alt="3D icon"
-                    width="40"
-                  />
-                </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">SEO Optimization</h4>
+                <p class="service-item-text">
+                  Implementing SEO strategies to improve website visibility
+                  and rankings.
+                </p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icons/3d-rotate-icon.svg" alt="3D icon" width="40" />
+              </div>
 
-                <div class="service-content-box">
-                  <h4 class="h4 service-item-title">3D Experiences</h4>
-                  <p class="service-item-text">
-                    Creating immersive 3D experiences for virtual and augmented
-                    reality environments.
-                  </p>
-                </div>
-              </li>
-              <li class="service-item">
-                <div class="service-icon-box">
-                  <img
-                    src="./assets/images/icons/video-game-gamepad-icon.svg"
-                    alt="Game development icon"
-                    width="40"
-                  />
-                </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">3D Experiences</h4>
+                <p class="service-item-text">
+                  Creating immersive 3D experiences for virtual and augmented
+                  reality environments.
+                </p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icons/video-game-gamepad-icon.svg" alt="Game development icon" width="40" />
+              </div>
 
-                <div class="service-content-box">
-                  <h4 class="h4 service-item-title">
-                    Web-Based Game Development
-                  </h4>
-                  <p class="service-item-text">
-                    Designing and developing simple yet engaging web-based games
-                    for various platforms.
-                  </p>
-                </div>
-              </li>
-            </ul>
-          </section>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">
+                  Web-Based Game Development
+                </h4>
+                <p class="service-item-text">
+                  Designing and developing simple yet engaging web-based games
+                  for various platforms.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </section>
 
-          <!--
+        <!--
           - clients
         -->
 
-          <section class="clients">
-            <div>
-              <h3 class="h3 clients-title">Tech Skills</h3>
-            </div>
+        <section class="clients">
+          <div>
+            <h3 class="h3 clients-title">Tech Skills</h3>
+          </div>
 
-            <div class="clients-grid">
-              <a href="#" class="clients-item">
-                <img
-                  src="./assets/images/icons/html5.svg"
-                  alt="client logo"
-                  width="100"
-                  height="100"
-                />
-              </a>
-              <a href="#" class="clients-item">
-                <img
-                  src="./assets/images/icons/css3.svg"
-                  width="100"
-                  height="100"
-                  alt="client logo"
-                />
-              </a>
-              <a href="#" class="clients-item">
-                <img
-                  src="./assets/images/icons/javascript.svg"
-                  width="100"
-                  height="100"
-                  alt="client logo"
-                />
-              </a>
-              <a href="#" class="clients-item">
-                <img
-                  src="./assets/images/icons/react.svg"
-                  width="100"
-                  height="100"
-                  alt="client logo"
-                />
-              </a>
-              <a href="#" class="clients-item">
-                <img
-                  src="./assets/images/icons/icons8-tailwind-css.svg"
-                  width="100"
-                  height="100"
-                  alt="client logo"
-                />
-              </a>
-              <a href="#" class="clients-item">
-                <img
-                  src="./assets/images/icons/next-js.svg"
-                  width="100"
-                  height="100"
-                  alt="client logo"
-                />
-              </a>
-              <a href="#" class="clients-item">
-                <img
-                  src="./assets/images/icons/nodejs.svg"
-                  width="100"
-                  height="100"
-                  alt="client logo"
-                />
-              </a>
-              <a href="#" class="clients-item">
-                <img
-                  src="./assets/images/icons/sass.svg"
-                  width="100"
-                  height="100"
-                  alt="client logo"
-                />
-              </a>
-              <a href="#" class="clients-item">
-                <img
-                  src="./assets/images/icons/mongodb.svg"
-                  width="80"
-                  height="80"
-                  alt="client logo"
-                />
-              </a>
-              <a href="#" class="clients-item">
-                <img
-                  src="./assets/images/icons/github.svg"
-                  width="100"
-                  height="100"
-                  alt="client logo"
-                />
-              </a>
-              <a href="#" class="clients-item">
-                <img
-                  src="./assets/images/icons/gitlab.svg"
-                  width="100"
-                  height="100"
-                  alt="client logo"
-                />
-              </a>
-              <a href="#" class="clients-item">
-                <img
-                  src="./assets/images/icons/visual-studio-team-services-git-repository.svg"
-                  width="100"
-                  height="100"
-                  alt="client logo"
-                />
-              </a>
-              <!-- Add other client items similarly -->
-            </div>
-          </section>
+          <div class="clients-grid">
+            <a href="#" class="clients-item">
+              <img src="./assets/images/icons/html5.svg" alt="client logo" width="100" height="100" />
+            </a>
+            <a href="#" class="clients-item">
+              <img src="./assets/images/icons/css3.svg" width="100" height="100" alt="client logo" />
+            </a>
+            <a href="#" class="clients-item">
+              <img src="./assets/images/icons/javascript.svg" width="100" height="100" alt="client logo" />
+            </a>
+            <a href="#" class="clients-item">
+              <img src="./assets/images/icons/react.svg" width="100" height="100" alt="client logo" />
+            </a>
+            <a href="#" class="clients-item">
+              <img src="./assets/images/icons/icons8-tailwind-css.svg" width="100" height="100" alt="client logo" />
+            </a>
+            <a href="#" class="clients-item">
+              <img src="./assets/images/icons/next-js.svg" width="100" height="100" alt="client logo" />
+            </a>
+            <a href="#" class="clients-item">
+              <img src="./assets/images/icons/nodejs.svg" width="100" height="100" alt="client logo" />
+            </a>
+            <a href="#" class="clients-item">
+              <img src="./assets/images/icons/sass.svg" width="100" height="100" alt="client logo" />
+            </a>
+            <a href="#" class="clients-item">
+              <img src="./assets/images/icons/mongodb.svg" width="80" height="80" alt="client logo" />
+            </a>
+            <a href="#" class="clients-item">
+              <img src="./assets/images/icons/github.svg" width="100" height="100" alt="client logo" />
+            </a>
+            <a href="#" class="clients-item">
+              <img src="./assets/images/icons/gitlab.svg" width="100" height="100" alt="client logo" />
+            </a>
+            <a href="#" class="clients-item">
+              <img src="./assets/images/icons/visual-studio-team-services-git-repository.svg" width="100" height="100"
+                alt="client logo" />
+            </a>
+            <!-- Add other client items similarly -->
+          </div>
+        </section>
 
-          <!--
+        <!--
           - testimonials
         -->
 
-          <section class="testimonials">
-            <h3 class="h3 testimonials-title">Testimonials</h3>
+        <section class="testimonials">
+          <h3 class="h3 testimonials-title">Testimonials</h3>
 
-            <ul class="testimonials-list has-scrollbar">
-              <li class="testimonials-item">
-                <div class="content-card" data-testimonials-item>
-                  <figure class="testimonials-avatar-box">
-                    <img
-                      src="./assets/images/avatar-1.png"
-                      alt="Daniel lewis"
-                      width="60"
-                      data-testimonials-avatar
-                    />
-                  </figure>
+          <ul class="testimonials-list has-scrollbar">
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar />
+                </figure>
 
-                  <h4
-                    class="h4 testimonials-item-title"
-                    data-testimonials-title
-                  >
-                    Daniel lewis
-                  </h4>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>
+                  Harish Kumar <br />
+                  The HK Online - CEO
+                </h4>
 
-                  <div class="testimonials-text" data-testimonials-text>
-                    <p>
-                      Richard was hired to create a corporate identity. We were
-                      very pleased with the work done. She has a lot of
-                      experience and is very concerned about the needs of
-                      client. Lorem ipsum dolor sit amet, ullamcous cididt
-                      consectetur adipiscing elit, seds do et eiusmod tempor
-                      incididunt ut laborels dolore magnarels alia.
-                    </p>
-                  </div>
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    I had the pleasure of working with Avinesh Kumar at The HK Online, where he excelled as a web
+                    developer. His expertise in Wordpress development, using HTML, CSS, JavaScript, and PHP, resulted in
+                    the creation of highly functional and user-friendly websites.
+
+                    Avinesh also produced and curated over 1000+ articles across 20+ websites, covering diverse topics.
+                    His design skills in Photoshop, Canva, and Adobe XD significantly enhanced our visual content,
+                    leading to increased engagement.
+
+                    In addition to his web development skills, he created instructional videos with Adobe Premiere Pro
+                    and Adobe After Effects, which greatly aided user adoption of our tools. His application of SEO
+                    techniques and familiarity with Google Ads, Google Analytics, and Keyword Planner boosted our
+                    website traffic and optimized our digital marketing efforts.
+
+                    Avinesh is a talented and dedicated professional whose contributions were invaluable to our team. I
+                    highly recommend him for any web development role.
+                  </p>
                 </div>
-              </li>
+              </div>
+            </li>
 
-              <li class="testimonials-item">
+            <!-- <li class="testimonials-item">
                 <div class="content-card" data-testimonials-item>
                   <figure class="testimonials-avatar-box">
                     <img
@@ -573,271 +474,299 @@
                     </p>
                   </div>
                 </div>
-              </li>
-            </ul>
-          </section>
+              </li> -->
+          </ul>
+        </section>
 
-          <!--
+        <!--
           - testimonials modal
         -->
 
-          <div class="modal-container" data-modal-container>
-            <div class="overlay" data-overlay></div>
+        <div class="modal-container" data-modal-container>
+          <div class="overlay" data-overlay></div>
 
-            <section class="testimonials-modal">
-              <button class="modal-close-btn" data-modal-close-btn>
-                <ion-icon name="close-outline"></ion-icon>
-              </button>
+          <section class="testimonials-modal">
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
 
-              <div class="modal-img-wrapper">
-                <figure class="modal-avatar-box">
-                  <img
-                    src="./assets/images/avatar-1.png"
-                    alt="Daniel lewis"
-                    width="80"
-                    data-modal-img
-                  />
-                </figure>
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img />
+              </figure>
 
-                <img src="./assets/images/icon-quote.svg" alt="quote icon" />
+              <img src="./assets/images/icon-quote.svg" alt="quote icon" />
+            </div>
+
+            <div class="modal-content">
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <!-- <time datetime="2021-06-14">14 June, 2021</time> -->
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were
+                  very pleased with the work done. She has a lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum
+                  dolor sit amet, ullamcous cididt consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels
+                  dolore magnarels alia.
+                </p>
               </div>
+            </div>
+          </section>
+        </div>
+      </article>
 
-              <div class="modal-content">
-                <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
-
-                <time datetime="2021-06-14">14 June, 2021</time>
-
-                <div data-modal-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were
-                    very pleased with the work done. She has a lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum
-                    dolor sit amet, ullamcous cididt consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels
-                    dolore magnarels alia.
-                  </p>
-                </div>
-              </div>
-            </section>
-          </div>
-        </article>
-
-        <!--
+      <!--
         - #RESUME
       -->
 
-        <article id="resume" class="resume" data-page="resume">
-          <header>
-            <h2 class="h2 article-title">Resume</h2>
-          </header>
-          
+      <article id="resume" class="resume" data-page="resume">
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
 
-          <section class="timeline">
-            <div class="resume-buttons">
-              <button class="form-btn" type="button" id="download-detailed-resume">
-                <ion-icon name="cloud-download-outline"></ion-icon>
-                <span>Download Resume</span>
-              </button>
+
+        <section class="timeline">
+          <div class="resume-buttons">
+            <button class="form-btn" type="button" id="download-detailed-resume">
+              <ion-icon name="cloud-download-outline"></ion-icon>
+              <span>Download Resume</span>
+            </button>
+          </div>
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">TCS</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                System Engineer
+              </h4>
+
+              <span>Dec 2023 - Present</span>
+              <br />
+
+              <p class="timeline-text">
+              <ul style="color: #d6d6d6;">
+                <li>➤ Product Management API Migration to MongoDB in NextJS Environment - Worked on the transition of
+                  the product management API from an in-house solution to MongoDB, enhancing scalability and data
+                  flexibility ensuring uninterrupted frontend functionality. Maintained previous performance benchmarks,
+                  including loading times for products, while strategically managing SEO considerations to preserve or
+                  enhance search engine rankings throughout the migration process.
+                </li>
+                <br />
+                <li>➤ Memory Game Development - Spearheaded the development of a Memory game using NextJS and Tailwind
+                  CSS, featuring 3 levels, scoring, local storage for high scores, and more. Engineered custom card
+                  animations without third-party plugins, including a 10-second inactivity prompt for user engagement.
+                  Implemented a scoring system considering time, moves, and difficulty level, enhancing gameplay
+                  fairness and challenge. Optimized game performance with an image preload hook for seamless experience.
+                  Supporting easy theming for brand integration. Achieved significant site analytics improvement,
+                  reduced bounce rates and increasing user interaction, particularly attracting a younger audience.
+                </li>
+              </ul>
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Assistant System Engineer</h4>
+
+              <span>Dec 2022 — Nov 2023</span>
+              <br />
+
+              <p class="timeline-text">
+              <ul style="color: #d6d6d6;">
+                <li>
+                  ➤ Worked in website migration and consolidation, transitioning from PHP to NextJS to create a unified
+                  platform for multiple brand sites, enhancing user experience and convenience.
+                </li>
+                <br />
+                <li>➤ Integrated NextJS, TailwindCSS, GraphQL, and various NPM packages and plugins to develop a
+                  cohesive and efficient website.
+                </li>
+                <br />
+                <li>➤ Enhanced PDP Template - Spearheaded the creation of Enhanced/Exclusive Product Description Page
+                  (PDP) templates, to improve product showcases in PDP page more detailed and interactive way. This
+                  Enhanced PDP template is flexibilty enough to do all customization via the CMS. Implemented a
+                  user-friendly Content Management System (CMS) interface, enabling effortless theme customization and
+                  content addition.We made site management much easier by eliminating the barriers associated with
+                  technological complexity, enabling individuals to effortlessly customize to their brand vision. Also,
+                  this page can handle diverse media formats, including images, videos, 360 videos, and AR/VR
+                  experiences.
+                </li>
+                <br />
+                <li>➤ Implemented Cookies and Google Analytics tracking on multiple websites, enabling detailed analysis
+                  of user interactions and informing strategic decision-making processes.
+                </li>
+                <br />
+                <li>➤ Developed immersive 3D experiences for Virtual Reality (VR) and Augmented Reality (AR)
+                  environments using Modal viewer, Three.js, and other cutting-edge technologies.
+                </li>
+                <br />
+                <li>➤ Applied Search Engine Optimization (SEO) techniques to optimize website content and improve search
+                  engine rankings, driving organic traffic and visibility.
+                </li>
+                <br />
+                <li>➤ Worked in designing and developing websites compliant with WCAG 2.1 AA standards, ensuring
+                  enhanced accessibility and usability for users of all abilities.
+                </li>
+                <br />
+                <li>➤ Worked in upgrading the Next.js app from v12 to 14, improving performance and scalability with
+                  modern web standards.
+                </li>
+              </ul>
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                Assistant System Engineer Trainee
+              </h4>
+
+              <span>Dec 2021 — Nov 2022</span>
+              <br />
+
+              <p class="timeline-text">
+              <ul style="color: #d6d6d6;">
+                <li>➤ Worked in building e-commerce websites using PHP Smarty, JavaScript, jQuery, CSS, and SCSS for
+                  responsive design.
+                </li>
+                <br />
+                <li>➤ Developed websites according to client specifications, focusing on functionality and user
+                  experience.
+                </li>
+                <br />
+                <li>➤ Internationalized the website to support over 25+ locales, ensuring a tailored experience for
+                  global users.
+                </li>
+                <br />
+                <li>➤ Created reusable code components to improve performance and accessibility.
+                </li>
+                <br />
+                <li>➤ Utilized Git for version control and adopted CI/CD pipeline for deployment.
+                </li>
+                <br />
+                <li>➤ Worked closely with QA/testing teams to troubleshoot and resolve issues.
+                </li>
+                <br />
+                <li>➤ Integrated content delivery and product management APIs for dynamic functionality.
+                </li>
+                <br />
+                <li>➤ Simultaneously migrated the website from PHP to NextJS for improved performance and scalability.
+                </li>
+              </ul>
+              </p>
+            </li>
+          </ol>
+        </section>
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
             </div>
 
-            <div class="title-wrapper">
-              <div class="icon-box">
-                <ion-icon name="book-outline"></ion-icon>
+            <h3 class="h3">The HK Online</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Web Developer and Content Writer</h4>
+
+              <span>June 2020 — Nov 2021</span>
+              <br />
+
+              <p class="timeline-text">
+              <ul style="color: #d6d6d6;">
+                <li>➤ Proficient in WordPress development, utilizing HTML, CSS, JavaScript, and PHP to design and
+                  customize websites for optimal user experience.
+                </li>
+                <br />
+                <li>➤ Produced and curated over 10,000+ high-quality articles across 20+ websites, covering diverse
+                  topics such as software, technology, news, cinema, products, How to guides, etc.
+                </li>
+                <br />
+                <li>➤ Designed visually engaging posters for blog posts and thumbnails for YouTube videos to enhance
+                  content visibility and engagement using Photoshop, Canva, and Adobe XD.
+                </li>
+                <br />
+                <li>➤ Created instructional videos demonstrating the usage of proprietary online tools, facilitating
+                  user understanding and adoption using Adobe Premiere Pro and Adobe After Effects.
+                </li>
+                <br />
+                <li>➤ Applied Search Engine Optimization (SEO) techniques to optimize content for increased website
+                  traffic and improved search engine rankings.
+                </li>
+                <br />
+                <li>➤ Familiar with Google Ads, Google Analytics, and Keyword Planner for effective digital marketing
+                  strategies and performance tracking.
+                </li>
+              </ul>
+              </p>
+            </li>
+          </ol>
+        </section>
+
+        <section class="skill">
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Responsive Web Development</h5>
+                <data value="90">90%</data>
               </div>
-              <h3 class="h3">TCS</h3>
-            </div>
 
-            <ol class="timeline-list">
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">
-                  System Engineer
-                </h4>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%"></div>
+              </div>
+            </li>
 
-                <span>Dec 2023 - Present</span>
-                <br/>
-
-                <p class="timeline-text">
-                  <ul style="color: #d6d6d6;">
-                    <li>➤ Product Management API Migration to MongoDB in NextJS Environment - Worked on the transition of the product management API from an in-house solution to MongoDB, enhancing scalability and data flexibility ensuring uninterrupted frontend functionality. Maintained previous performance benchmarks, including loading times for products, while strategically managing SEO considerations to preserve or enhance search engine rankings throughout the migration process.
-                    </li>
-                    <br/>
-                    <li>➤ Memory Game Development - Spearheaded the development of a Memory game using NextJS and Tailwind CSS, featuring 3 levels, scoring, local storage for high scores, and more. Engineered custom card animations without third-party plugins, including a 10-second inactivity prompt for user engagement. Implemented a scoring system considering time, moves, and difficulty level, enhancing gameplay fairness and challenge. Optimized game performance with an image preload hook for seamless experience. Supporting easy theming for brand integration. Achieved significant site analytics improvement, reduced bounce rates and increasing user interaction, particularly attracting a younger audience.
-                    </li>
-                  </ul>
-                </p>
-              </li>
-
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">Assistant System Engineer</h4>
-
-                <span>Dec 2022 — Nov 2023</span>
-                <br/>
-
-                <p class="timeline-text">
-                  <ul style="color: #d6d6d6;">
-                    <li>
-                      ➤ Worked in website migration and consolidation, transitioning from PHP to NextJS to create a unified platform for multiple brand sites, enhancing user experience and convenience.
-                    </li>
-                    <br/>
-                    <li>➤ Integrated NextJS, TailwindCSS, GraphQL, and various NPM packages and plugins to develop a cohesive and efficient website.
-                    </li>
-                    <br/>
-                    <li>➤ Enhanced PDP Template - Spearheaded the creation of Enhanced/Exclusive Product Description Page (PDP) templates, to improve product showcases in PDP page more detailed and interactive way. This Enhanced PDP template is flexibilty enough to do all customization via the CMS. Implemented a user-friendly Content Management System (CMS) interface, enabling effortless theme customization and content addition.We made site management much easier by eliminating the barriers associated with technological complexity, enabling individuals to effortlessly customize to their brand vision. Also, this page can handle diverse media formats, including images, videos, 360 videos, and AR/VR experiences.
-                    </li>
-                    <br/>
-                    <li>➤ Implemented Cookies and Google Analytics tracking on multiple websites, enabling detailed analysis of user interactions and informing strategic decision-making processes.
-                    </li>
-                    <br/>
-                    <li>➤ Developed immersive 3D experiences for Virtual Reality (VR) and Augmented Reality (AR) environments using Modal viewer, Three.js, and other cutting-edge technologies.
-                    </li>
-                    <br/>
-                    <li>➤ Applied Search Engine Optimization (SEO) techniques to optimize website content and improve search engine rankings, driving organic traffic and visibility.
-                    </li>
-                    <br/>
-                    <li>➤ Worked in designing and developing websites compliant with WCAG 2.1 AA standards, ensuring enhanced accessibility and usability for users of all abilities.
-                    </li>
-                    <br/>
-                    <li>➤ Worked in upgrading the Next.js app from v12 to 14, improving performance and scalability with modern web standards.
-                    </li>
-                  </ul>
-                </p>
-              </li>
-
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">
-                  Assistant System Engineer Trainee
-                </h4>
-
-                <span>Dec 2021 — Nov 2022</span>
-                <br/>
-
-                <p class="timeline-text">
-                  <ul style="color: #d6d6d6;">
-                    <li>➤ Worked in building e-commerce websites using PHP Smarty, JavaScript, jQuery, CSS, and SCSS for responsive design.
-                    </li>
-                    <br/>
-                    <li>➤ Developed websites according to client specifications, focusing on functionality and user experience.
-                    </li>
-                    <br/>
-                    <li>➤ Internationalized the website to support over 25+ locales, ensuring a tailored experience for global users.
-                    </li>
-                    <br/>
-                    <li>➤ Created reusable code components to improve performance and accessibility.
-                    </li>
-                    <br/>
-                    <li>➤ Utilized Git for version control and adopted CI/CD pipeline for deployment.
-                    </li>
-                    <br/>
-                    <li>➤ Worked closely with QA/testing teams to troubleshoot and resolve issues.
-                    </li>
-                    <br/>
-                    <li>➤ Integrated content delivery and product management APIs for dynamic functionality.
-                    </li>
-                    <br/>
-                    <li>➤ Simultaneously migrated the website from PHP to NextJS for improved performance and scalability.
-                    </li>
-                  </ul>
-                </p>
-              </li>
-            </ol>
-          </section>
-
-          <section class="timeline">
-            <div class="title-wrapper">
-              <div class="icon-box">
-                <ion-icon name="book-outline"></ion-icon>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Web Design</h5>
+                <data value="70">70%</data>
               </div>
 
-              <h3 class="h3">The HK Online</h3>
-            </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%"></div>
+              </div>
+            </li>
 
-            <ol class="timeline-list">
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">Web Developer and Content Writer</h4>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Web-Based Game Development</h5>
+                <data value="80">80%</data>
+              </div>
 
-                <span>June 2020 — Nov 2021</span>
-                <br/>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%"></div>
+              </div>
+            </li>
 
-                <p class="timeline-text">
-                  <ul style="color: #d6d6d6;">
-                    <li>➤ Proficient in WordPress development, utilizing HTML, CSS, JavaScript, and PHP to design and customize websites for optimal user experience.
-                    </li>
-                    <br/>
-                    <li>➤ Produced and curated over 10,000+ high-quality articles across 20+ websites, covering diverse topics such as software, technology, news, cinema, products, How to guides, etc.
-                    </li>
-                    <br/>
-                    <li>➤ Designed visually engaging posters for blog posts and thumbnails for YouTube videos to enhance content visibility and engagement using Photoshop, Canva, and Adobe XD.
-                    </li>
-                    <br/>
-                    <li>➤ Created instructional videos demonstrating the usage of proprietary online tools, facilitating user understanding and adoption using Adobe Premiere Pro and Adobe After Effects.
-                    </li>
-                    <br/>
-                    <li>➤ Applied Search Engine Optimization (SEO) techniques to optimize content for increased website traffic and improved search engine rankings.
-                    </li>
-                    <br/>
-                    <li>➤ Familiar with Google Ads, Google Analytics, and Keyword Planner for effective digital marketing strategies and performance tracking.
-                    </li>
-                  </ul>
-                </p>
-              </li>
-            </ol>
-          </section>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">API Management</h5>
+                <data value="80">80%</data>
+              </div>
 
-          <section class="skill">
-            <h3 class="h3 skills-title">My skills</h3>
-
-            <ul class="skills-list content-card">
-              <li class="skills-item">
-                <div class="title-wrapper">
-                  <h5 class="h5">Responsive Web Development</h5>
-                  <data value="90">90%</data>
-                </div>
-
-                <div class="skill-progress-bg">
-                  <div class="skill-progress-fill" style="width: 90%"></div>
-                </div>
-              </li>
-
-              <li class="skills-item">
-                <div class="title-wrapper">
-                  <h5 class="h5">Web Design</h5>
-                  <data value="70">70%</data>
-                </div>
-
-                <div class="skill-progress-bg">
-                  <div class="skill-progress-fill" style="width: 70%"></div>
-                </div>
-              </li>
-
-              <li class="skills-item">
-                <div class="title-wrapper">
-                  <h5 class="h5">Web-Based Game Development</h5>
-                  <data value="80">80%</data>
-                </div>
-
-                <div class="skill-progress-bg">
-                  <div class="skill-progress-fill" style="width: 80%"></div>
-                </div>
-              </li>
-
-              <li class="skills-item">
-                <div class="title-wrapper">
-                  <h5 class="h5">API Management</h5>
-                  <data value="80">80%</data>
-                </div>
-
-                <div class="skill-progress-bg">
-                  <div class="skill-progress-fill" style="width: 80%"></div>
-                </div>
-              </li>
-            </ul>
-          </section>
-          <!-- <div class="resume-buttons">
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%"></div>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <!-- <div class="resume-buttons">
             <button class="form-btn" type="button" id="download-detailed-resume">
               <ion-icon name="cloud-download-outline"></ion-icon>
               <span>Download Resume</span>
             </button> -->
-            <!-- <button class="form-btn" type="button" id="download-light-resume">
+        <!-- <button class="form-btn" type="button" id="download-light-resume">
               <ion-icon name="cloud-download-outline"></ion-icon>
               <span>Download Resume (Light Theme)</span>
             </button>
@@ -845,117 +774,101 @@
               <ion-icon name="cloud-download-outline"></ion-icon>
               <span>Download Resume (Dark Theme)</span>
             </button> -->
-          <!-- </div>   -->
-        </article>
+        <!-- </div>   -->
+      </article>
 
-        <!--
+      <!--
         - #PORTFOLIO
       -->
 
-        <article class="portfolio" data-page="portfolio">
-          <header>
-            <h2 class="h2 article-title">Portfolio</h2>
-          </header>
+      <article class="portfolio" data-page="portfolio">
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
 
-          <section class="projects">
-            <ul class="filter-list">
-              <li class="filter-item">
-                <button class="active" data-filter-btn>All</button>
-              </li>
+        <section class="projects">
+          <ul class="filter-list">
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
 
-              <!-- <li class="filter-item">
+            <!-- <li class="filter-item">
                 <button data-filter-btn>Web design</button>
               </li> -->
 
-              <li class="filter-item">
-                <button data-filter-btn>Applications</button>
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+          </ul>
+
+          <div class="filter-select-box">
+            <button class="filter-select" data-select>
+              <div class="select-value" data-selecct-value>
+                Select category
+              </div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+            </button>
+
+            <ul class="select-list">
+              <li class="select-item">
+                <button data-select-item>All</button>
               </li>
 
-              <li class="filter-item">
-                <button data-filter-btn>Web development</button>
-              </li>
-            </ul>
-
-            <div class="filter-select-box">
-              <button class="filter-select" data-select>
-                <div class="select-value" data-selecct-value>
-                  Select category
-                </div>
-
-                <div class="select-icon">
-                  <ion-icon name="chevron-down"></ion-icon>
-                </div>
-              </button>
-
-              <ul class="select-list">
-                <li class="select-item">
-                  <button data-select-item>All</button>
-                </li>
-
-                <!-- <li class="select-item">
+              <!-- <li class="select-item">
                   <button data-select-item>Web design</button>
                 </li> -->
 
-                <li class="select-item">
-                  <button data-select-item>Applications</button>
-                </li>
-
-                <li class="select-item">
-                  <button data-select-item>Web development</button>
-                </li>
-              </ul>
-            </div>
-
-            <ul class="project-list">
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="web development"
-              >
-                <a href="https://avineshrv.github.io/voice-chat-app/">
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img
-                      src="./assets/images/portfolio/voice chat app.png"
-                      alt="voice chat app"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">Voice Chat App - NextJS</h3>
-
-                  <p class="project-category">Web development</p>
-                </a>
+              <li class="select-item">
+                <button data-select-item>Applications</button>
               </li>
 
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="applications"
-              >
-                <a href="https://avineshrv.github.io/Coursera-react-simple-booking-app/">
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img
-                      src="./assets/images/portfolio/Booking App.png"
-                      alt="Booking App"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">Booking App - ReactJS</h3>
-
-                  <p class="project-category">Web Application</p>
-                </a>
+              <li class="select-item">
+                <button data-select-item>Web development</button>
               </li>
+            </ul>
+          </div>
 
-              <!-- <li
+          <ul class="project-list">
+            <li class="project-item active" data-filter-item data-category="web development">
+              <a href="https://avineshrv.github.io/voice-chat-app/">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/portfolio/voice chat app.png" alt="voice chat app" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Voice Chat App - NextJS</h3>
+
+                <p class="project-category">Web development</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="applications">
+              <a href="https://avineshrv.github.io/Coursera-react-simple-booking-app/">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/portfolio/Booking App.png" alt="Booking App" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Booking App - ReactJS</h3>
+
+                <p class="project-category">Web Application</p>
+              </a>
+            </li>
+
+            <!-- <li
                 class="project-item active"
                 data-filter-item
                 data-category="web design"
@@ -1122,226 +1035,201 @@
                   <p class="project-category">Web development</p>
                 </a>
               </li> -->
-            </ul>
-          </section>
-        </article>
+          </ul>
+        </section>
+      </article>
 
-        <!--
+      <!--
         - #BLOG
       -->
 
-        <article class="blog" data-page="blog">
-          <header>
-            <h2 class="h2 article-title">Blog</h2>
-          </header>
+      <article class="blog" data-page="blog">
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
 
-          <section class="blog-posts">
-            <ul class="blog-posts-list">
-              <li class="blog-post-item">
-                <a href="https://avineshkumarrv.wordpress.com/2024/05/20/crafting-the-ultimate-user-experience-best-practices-for-frontend-developers/" target="_blank">
-                  <figure class="blog-banner-box">
-                    <img
-                      src="./assets/images/blog/blog-post-1.jpg"
-                      alt="Design conferences in 2022"
-                      loading="lazy"
-                    />
-                  </figure>
+        <section class="blog-posts">
+          <ul class="blog-posts-list">
+            <li class="blog-post-item">
+              <a href="https://avineshkumarrv.wordpress.com/2024/05/20/crafting-the-ultimate-user-experience-best-practices-for-frontend-developers/"
+                target="_blank">
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog/blog-post-1.jpg" alt="Design conferences in 2022" loading="lazy" />
+                </figure>
 
-                  <div class="blog-content">
-                    <div class="blog-meta">
-                      <p class="blog-category">Web Development</p>
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Web Development</p>
 
-                      <span class="dot"></span>
+                    <span class="dot"></span>
 
-                      <time datetime="2022-02-23">May 20, 2024</time>
-                    </div>
-
-                    <h3 class="h3 blog-item-title">
-                      CRAFTING THE ULTIMATE USER EXPERIENCE: BEST PRACTICES FOR FRONTEND DEVELOPERS
-                    </h3>
-
-                    <p class="blog-text">
-                      Master the Art of UX: Essential Frontend Development Best Practices. Enhance user satisfaction and engagement with proven strategies and techniques.
-                    </p>
+                    <time datetime="2022-02-23">May 20, 2024</time>
                   </div>
-                </a>
-              </li>
 
-              <li class="blog-post-item">
-                <a href="#">
-                  <figure class="blog-banner-box">
-                    <img
-                      src="./assets/images/blog-2.jpg"
-                      alt="Best fonts every designer"
-                      loading="lazy"
-                    />
-                  </figure>
+                  <h3 class="h3 blog-item-title">
+                    CRAFTING THE ULTIMATE USER EXPERIENCE: BEST PRACTICES FOR FRONTEND DEVELOPERS
+                  </h3>
 
-                  <div class="blog-content">
-                    <div class="blog-meta">
-                      <p class="blog-category">Design</p>
+                  <p class="blog-text">
+                    Master the Art of UX: Essential Frontend Development Best Practices. Enhance user satisfaction and
+                    engagement with proven strategies and techniques.
+                  </p>
+                </div>
+              </a>
+            </li>
 
-                      <span class="dot"></span>
+            <li class="blog-post-item">
+              <a href="#">
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy" />
+                </figure>
 
-                      <time datetime="2022-02-23">Fab 23, 2022</time>
-                    </div>
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
 
-                    <h3 class="h3 blog-item-title">
-                      Best fonts every designer
-                    </h3>
+                    <span class="dot"></span>
 
-                    <p class="blog-text">
-                      Sed ut perspiciatis, nam libero tempore, cum soluta nobis
-                      est eligendi.
-                    </p>
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
                   </div>
-                </a>
-              </li>
 
-              <li class="blog-post-item">
-                <a href="#">
-                  <figure class="blog-banner-box">
-                    <img
-                      src="./assets/images/blog-3.jpg"
-                      alt="Design digest #80"
-                      loading="lazy"
-                    />
-                  </figure>
+                  <h3 class="h3 blog-item-title">
+                    Best fonts every designer
+                  </h3>
 
-                  <div class="blog-content">
-                    <div class="blog-meta">
-                      <p class="blog-category">Design</p>
+                  <p class="blog-text">
+                    Sed ut perspiciatis, nam libero tempore, cum soluta nobis
+                    est eligendi.
+                  </p>
+                </div>
+              </a>
+            </li>
 
-                      <span class="dot"></span>
+            <li class="blog-post-item">
+              <a href="#">
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy" />
+                </figure>
 
-                      <time datetime="2022-02-23">Fab 23, 2022</time>
-                    </div>
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
 
-                    <h3 class="h3 blog-item-title">Design digest #80</h3>
+                    <span class="dot"></span>
 
-                    <p class="blog-text">
-                      Excepteur sint occaecat cupidatat no proident, quis
-                      nostrum exercitationem ullam corporis suscipit.
-                    </p>
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
                   </div>
-                </a>
-              </li>
 
-              <li class="blog-post-item">
-                <a href="#">
-                  <figure class="blog-banner-box">
-                    <img
-                      src="./assets/images/blog-4.jpg"
-                      alt="UI interactions of the week"
-                      loading="lazy"
-                    />
-                  </figure>
+                  <h3 class="h3 blog-item-title">Design digest #80</h3>
 
-                  <div class="blog-content">
-                    <div class="blog-meta">
-                      <p class="blog-category">Design</p>
+                  <p class="blog-text">
+                    Excepteur sint occaecat cupidatat no proident, quis
+                    nostrum exercitationem ullam corporis suscipit.
+                  </p>
+                </div>
+              </a>
+            </li>
 
-                      <span class="dot"></span>
+            <li class="blog-post-item">
+              <a href="#">
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy" />
+                </figure>
 
-                      <time datetime="2022-02-23">Fab 23, 2022</time>
-                    </div>
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
 
-                    <h3 class="h3 blog-item-title">
-                      UI interactions of the week
-                    </h3>
+                    <span class="dot"></span>
 
-                    <p class="blog-text">
-                      Enim ad minim veniam, consectetur adipiscing elit, quis
-                      nostrud exercitation ullamco laboris nisi.
-                    </p>
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
                   </div>
-                </a>
-              </li>
 
-              <li class="blog-post-item">
-                <a href="#">
-                  <figure class="blog-banner-box">
-                    <img
-                      src="./assets/images/blog-5.jpg"
-                      alt="The forgotten art of spacing"
-                      loading="lazy"
-                    />
-                  </figure>
+                  <h3 class="h3 blog-item-title">
+                    UI interactions of the week
+                  </h3>
 
-                  <div class="blog-content">
-                    <div class="blog-meta">
-                      <p class="blog-category">Design</p>
+                  <p class="blog-text">
+                    Enim ad minim veniam, consectetur adipiscing elit, quis
+                    nostrud exercitation ullamco laboris nisi.
+                  </p>
+                </div>
+              </a>
+            </li>
 
-                      <span class="dot"></span>
+            <li class="blog-post-item">
+              <a href="#">
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy" />
+                </figure>
 
-                      <time datetime="2022-02-23">Fab 23, 2022</time>
-                    </div>
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
 
-                    <h3 class="h3 blog-item-title">
-                      The forgotten art of spacing
-                    </h3>
+                    <span class="dot"></span>
 
-                    <p class="blog-text">
-                      Maxime placeat, sed do eiusmod tempor incididunt ut labore
-                      et dolore magna aliqua.
-                    </p>
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
                   </div>
-                </a>
-              </li>
 
-              <li class="blog-post-item">
-                <a href="#">
-                  <figure class="blog-banner-box">
-                    <img
-                      src="./assets/images/blog-6.jpg"
-                      alt="Design digest #79"
-                      loading="lazy"
-                    />
-                  </figure>
+                  <h3 class="h3 blog-item-title">
+                    The forgotten art of spacing
+                  </h3>
 
-                  <div class="blog-content">
-                    <div class="blog-meta">
-                      <p class="blog-category">Design</p>
+                  <p class="blog-text">
+                    Maxime placeat, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua.
+                  </p>
+                </div>
+              </a>
+            </li>
 
-                      <span class="dot"></span>
+            <li class="blog-post-item">
+              <a href="#">
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy" />
+                </figure>
 
-                      <time datetime="2022-02-23">Fab 23, 2022</time>
-                    </div>
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
 
-                    <h3 class="h3 blog-item-title">Design digest #79</h3>
+                    <span class="dot"></span>
 
-                    <p class="blog-text">
-                      Optio cumque nihil impedit uo minus quod maxime placeat,
-                      velit esse cillum.
-                    </p>
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
                   </div>
-                </a>
-              </li>
-            </ul>
-          </section>
-        </article>
 
-        <!--
+                  <h3 class="h3 blog-item-title">Design digest #79</h3>
+
+                  <p class="blog-text">
+                    Optio cumque nihil impedit uo minus quod maxime placeat,
+                    velit esse cillum.
+                  </p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+      <!--
         - #CONTACT
       -->
 
-        <article class="contact" data-page="contact">
-          <header>
-            <h2 class="h2 article-title">Contact</h2>
-          </header>
+      <article class="contact" data-page="contact">
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
 
-          <section class="mapbox" data-mapbox>
-            <figure>
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15563.40560403375!2d80.21261739051708!3d12.788155975741068!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52509116b4ba75%3A0x94d4211ea4900d05!2sKelambakkam%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1716206211438!5m2!1sen!2sin"
-                width="400"
-                height="300"
-                loading="lazy"
-              ></iframe>
-            </figure>
-          </section>
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15563.40560403375!2d80.21261739051708!3d12.788155975741068!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52509116b4ba75%3A0x94d4211ea4900d05!2sKelambakkam%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1716206211438!5m2!1sen!2sin"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
 
-          <!-- <section class="contact-form">
+        <!-- <section class="contact-form">
             <h3 class="h3 form-title">Contact Form</h3>
 
             <form action="#" class="form" data-form>
@@ -1379,49 +1267,47 @@
               </button>
             </form>
           </section> -->
-          
-          <section class="contact-form">
-            <h3 class="h3 form-title">Contact Form</h3>
-            <form id="contact-form" class="form" data-form>
-              <div class="input-wrapper">
-                <input type="text" name="fullname" id="fullname" class="form-input" placeholder="Full name" required data-form-input />
-                <input type="email" name="email" id="email" class="form-input" placeholder="Email address" required data-form-input />
-              </div>
-              <textarea name="message" id="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
-              <button class="form-btn" type="submit" id="form-btn" disabled data-form-btn>
-                <ion-icon name="paper-plane"></ion-icon>
-                <span>Send Message</span>
-              </button>
-            </form>
-          </section>
-        </article>
-      </div>
-    </main>
 
-    <!--
+        <section class="contact-form">
+          <h3 class="h3 form-title">Contact Form</h3>
+          <form id="contact-form" class="form" data-form>
+            <div class="input-wrapper">
+              <input type="text" name="fullname" id="fullname" class="form-input" placeholder="Full name" required
+                data-form-input />
+              <input type="email" name="email" id="email" class="form-input" placeholder="Email address" required
+                data-form-input />
+            </div>
+            <textarea name="message" id="message" class="form-input" placeholder="Your Message" required
+              data-form-input></textarea>
+            <button class="form-btn" type="submit" id="form-btn" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+          </form>
+        </section>
+      </article>
+    </div>
+  </main>
+
+  <!--
     - custom js link
   -->
-    <script src="./assets/js/script.js"></script>
-    <script src="./assets/js/download.js"></script>
+  <script src="./assets/js/script.js"></script>
+  <script src="./assets/js/download.js"></script>
 
-    <!--
+  <!--
     - ionicon link
   -->
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
-    ></script>
-    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
-    <script type="text/javascript">
-      (function(){
-          emailjs.init("OSEHpPm6yEepwZfyb");
-      })();
-    </script>
-        <script src="./assets/js/mail.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init("OSEHpPm6yEepwZfyb");
+    })();
+  </script>
+  <script src="./assets/js/mail.js"></script>
 
-  </body>
+</body>
+
 </html>
